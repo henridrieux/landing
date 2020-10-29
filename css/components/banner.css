@@ -1,0 +1,36 @@
+.banner {
+  height: 500px;
+  text-align: center;
+  box-shadow: 10px 10px 10px #64C9D3;
+  margin-bottom: 60px;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 60px;
+  font-size : bold;
+  margin: 0px;
+  text-shadow: 10px 10px 10px grey;
+}
+
+.banner p {
+  color: white;
+  font-size: 30px;
+  text-shadow: 20px 20px 20px grey;
+  margin-bottom: 100px;
+}
+
+.banner a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #2287FF;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+.banner a:hover {
+  background-color: white;
+  color: #2287FF;
+  transition-delay: 0.15s;
+}
