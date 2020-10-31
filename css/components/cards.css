@@ -1,16 +1,19 @@
 .card {
-  width: 250px;
-  margin : 50px auto;
+  width: 350px;
+  height: 400px;
+  margin : 30px auto;
   box-shadow: 20px 20px 20px #E9ECF1;
-  padding: 80px
+  padding: 20px
   border-radius: 10px;
-  padding-bottom: 25px;
+  padding: 25px;
   text-align: center;
+  margin-left: 10px;
+
 }
 
 
 .cards img {
-  height: 100px;
+  height: 200px;
 }
 
 .cards {

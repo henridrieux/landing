@@ -2,6 +2,10 @@
 @import url("components/cards.css");
 @import url("components/footer.css");
 @import url("components/video.css");
+@import url("components/pain.css");
+@import url("components/container.css");
+@import url("components/card-product.css");
+
 /* Fonts */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
 

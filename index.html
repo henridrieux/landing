@@ -5,63 +5,126 @@
   <title>Event Based Marketing</title>
   <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <!-- We need this line below for responsiveness! -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <!-- code a Hero / Banner section -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Event Based Marketing</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href=".footer">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href=".footer">Features</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-  <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)),url('images/ebm.jpg');">
+
+  <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)),url('images/background.png');">
     <h1>Projet EBM !</h1>
-    <p>Event-based marketing is a digital marketing technique where customers receive personalised communications based on their behaviour, or lack of. </p>
-    <a href="https://kitt.lewagon.com/alumni/henridrieux">Rejoindre le projet !</a>
+    <a href="https://www.youtube.com/watch?v=5SIQPfeUTtg" target="_blank">Allez viens ...</a>
   </div>
+
+<div class="containe">
+
+<!--   pourquoi ?  -->
+       <h2 style="text-align: center">The pain point !</h2>
+    <div class="pain rounded">
+      <div class="pain-tof">
+        <img src="images/tel.png" class="w-80" alt="...">
+      </div>
+      <div class="aa">
+        <h4>Acquisition en B to B</h4>
+        <br>
+        <strong>Inbound</strong> : L'inbound marketing est une stratégie marketing visant à faire venir le client à soi plutôt que d'aller le chercher
+        <br>
+        <br>
+        <strong>Outbound</strong> : consiste à aller chercher le client
+        <br>
+        <br>
+        <i class="fas fa-phone"></i> == > 🥴 || && 🤬
+          <br>
+          <br>
+        <i class="fas fa-envelope-open-text"></i> == > 🍀
+      </div>
+    </div>
+
 
   <!-- code a "How it works" section -->
-    <h2 style="text-align: center">How it works</h2>
+    <h2 style="text-align: center">How it works ...</h2>
   <div class="cards">
-
-
     <div class="card">
-      <img src="images/apply.svg">
-      <h1>Code</h1>
-      <p>On scrappe le web</p>
+      <img src="images/scrap.png">
+      <h1>Scrapping</h1>
+      <p>On scrappe le web quotidiennement pour trouver des events exploitables</p>
     </div>
 
     <div class="card">
-      <img src="images/learn.svg">
-      <h1>Transfo</h1>
-      <p>On detecte les contacts chauds</p>
+      <img src="images/transform.png">
+      <h1>Transform</h1>
+      <p>On transforme ces events en une information claire que l'on transmet au client</p>
     </div>
 
     <div class="card">
-      <img src="images/product.svg">
-      <h1>Money !</h1>
-      <p>Les commericaux signent</p>
+      <img src="images/up.png">
+      <h1>Sky is the limit!</h1>
+      <p>Le commercial contacte son prospect au bon moment et * 4 ses chances !</p>
     </div>
   </div>
 
-  <h2 style="text-align: center;">En savoir plus ...</h2>
+<!--   exemple  -->
+    <h2 style="text-align: center">Un exemple vaut mieux qu'un long discours ...</h2>
 
-  <div class="video">
-    <a href="https://www.youtube.com/watch?v=Bp3Wxk8iuw8&feature=emb_title&fbclid=IwAR0M8j5RlVw2mFhsqqT6uUnz3Q44oVdenAJvHADI-wICmRCBceIz6ADBjZ4" target="_blank"><img src="images/video.png"/></a>
+      <div class="card-product">
+      <img src="images/scrap1.png"/>
+      <div class="card-product-infos">
+        <h2> 1 - Nous scrappons le site www.notaire.fr lundi </h2>
+        <p>Exemple : ID 1, Name : Louis BERTHAUD Notaire, Etude : SAS GILLETTA DE SAINT JOSEPH NOTAIRES PARIS, Adresse :37, Boulevard Bourdon - PARIS, 75004 - France.</p>
+      </div>
+    </div>
 
-  </div>
+    <div class="card-product">
+      <img src="images/louis.png" />
+      <div class="card-product-infos">
+        <h2>2 - Notre robot va passer automatiquement le mardi</h2>
+        <p>Exemple : ID 1, Name : Louis BERTHAUD Notaire, <p style="color: red">Etude : BERTHAUD NOTAIRE, Adresse : 1, rue Jean Beausire - PARIS, 75004 - France.</p></p>
+      </div>
+    </div>
 
+    <div class="card-product">
+      <img src="images/git.png" />
+      <div class="card-product-infos">
+        <h2>3 - Nous retraitons l'information et l'adressons via slack à nos clients</h2>
+        <p> Imaginez ce que nous pourrions vendre à Me BERTHAUD ? 🤑 </p>
+      </div>
+    </div>
 
+    <h2 style="text-align: center;">  👀 En savoir plus 👀</h2>
+    <div class="video">
+      <a href="https://www.youtube.com/watch?v=Bp3Wxk8iuw8&feature=emb_title&fbclid=IwAR0M8j5RlVw2mFhsqqT6uUnz3Q44oVdenAJvHADI-wICmRCBceIz6ADBjZ4" target="_blank"><img src="images/video.png"/></a>
+    </div>
 
   <!-- code a footer -->
 
-  <div class="footer">
-    <ul>
-      <li><i class="fab fa-facebook-f"></i></li>
-      <li><i class="fab fa-github"></i></li>
-      <li><i class="fab fa-twitter"></i></li>
-      <li><i class="fab fa-instagram"></i></li>
-    </ul>
-    <p>This website was coded with  💜 at Le Wagon.</p>
+    <div class="footer">
+      <ul>
+        <li><i class="fab fa-facebook-f"></i></li>
+        <li><i class="fab fa-github"></i></li>
+        <li><i class="fab fa-twitter"></i></li>
+        <li><i class="fab fa-instagram"></i></li>
+      </ul>
+      <p>This website was coded with 💜 at Le Wagon.</p>
+    </div>
   </div>
-
 </body>
 </html>

@@ -1,0 +1,31 @@
+.pain {
+  width: 1000px;
+  margin-bottom: 70px;
+  background-size: cover;
+  margin-bottom: 60px;
+  display: flex;
+  margin-left: 150px;
+  box-shadow: 10px 10px 10px grey;
+  border: #F2F2F2 1px solid;
+  text-align: justify;
+}
+
+.pain-tof {
+  text-align: left;
+  margin-left: 40px;
+}
+
+.pain li {
+  padding-right: 25px;
+  list-style: none;
+  font-size: 16px;
+}
+
+h4 {
+  margin-top: 10px;
+}
+
+.aa {
+  margin-right: 20px;
+  margin-top: 10px;
+}
